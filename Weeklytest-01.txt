@@ -1,0 +1,24 @@
+Question No.01(Task01)
+let fruits = ["apple", "banana", "orange", "grape"]
+fruits.push("kiwi")
+fruits.pop()
+fruits.unshift("lemon")
+fruits.shift()
+const index = fruits.indexOf("orange")
+let newarr = fruits.slice(2)
+console.log(newarr)
+console.log(index)
+
+
+Question No.02(Task2)
+
+const person = {
+    name: "onkar",
+    age: 30,
+    address:"pune" 
+}
+console.log(person.name)
+console.log(person.age)
+console.log(person.address)
+person['email'] = "ok@gmail.com"
+console.log(person)
