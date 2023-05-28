@@ -14,11 +14,14 @@ Question No.02(Task2)
 
 const person = {
     name: "onkar",
-    age: 30,
+    age: '',
     address:"pune" 
 }
 console.log(person.name)
+person.age = 30
 console.log(person.age)
 console.log(person.address)
 person['email'] = "ok@gmail.com"
+console.log(person)
+delete person.address
 console.log(person)
